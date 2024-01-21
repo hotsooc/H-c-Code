@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading List</title>
+    <Link rel="stylesheet" href="css/app.scss" />
+</head>
+<body>
+    <div id="app" class="book">
+        <header class="books__header">
+                <h1 class="books__title">Readding List</h1>
+                <p>Reading list in 2022</p>
+                <form id="books__search" class="books__search">
+                    <input type="text" placeholder="search books..." />
+                </form>
+        </header>
+        <main>
+            <section class="bookList">
+                <h2 class="bookList__title">Book to Read</h2>
+                <ul>
+                    <li class="completed">
+                        <span class="bookList__name">Lap trinh web can ban</span>
+                        <span class="bookList__detele">detele</span>
+                    </li>
+                    <li>
+                        <span class="bookList__name">Lap trinh Fullstak web</span>
+                        <span class="bookList__detele">detele</span>
+                    </li>
+                    <li>
+                        <span class="bookList__name">Lap trinh Mobile app</span>
+                        <span class="bookList__detele">detele</span>
+                    </li>
+                    <li>
+                        <span class="bookList__name">Lap trinh Nodejs</span>
+                        <span class="bookList__detele">detele</span>
+                    </li>
+                </ul>
+            </section>
+            <form id="booksAdd" class="booksAdd">
+                <input type="text" placeholder="Add a book..." />
+                <button>Add</button>
+            </form>
+        </main>
+        <footer class="books__footer">
+            @ mindx 2022
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
